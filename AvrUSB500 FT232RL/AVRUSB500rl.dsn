@@ -1,0 +1,416 @@
+(PCB "C:/Projects/Eagle_projects/AvrUSB500 FT232RL/AVRUSB500rl.brd"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad CadSoft)
+    (host_version 'EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft')
+  )
+  (resolution mm 10000)
+  (unit mm)
+  (structure
+    (layer "1#Top"  (type signal))
+    (layer "16#Bottom"  (type signal))
+    (boundary 
+      (rect pcb  0.000000 0.000000 47.000000 32.000000)
+    )
+    (boundary (path signal 0 0.000000 0.000000 47.000000 0.000000))
+    (boundary (path signal 0 47.000000 0.000000 47.000000 32.000000))
+    (boundary (path signal 0 47.000000 32.000000 0.000000 32.000000))
+    (boundary (path signal 0 0.000000 32.000000 0.000000 0.000000))
+    (via
+       "Round1$0.019047"
+    )
+    (rule (width 0.254000)(clearance 0.203200))
+    (control
+      (via_at_smd on)
+    )
+  )
+  (placement
+    (place_control (flip_style rotate_first))
+    (component "C0805$rcl" 
+      (place "C1" 5.080000 8.890000 Front 0.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C2" 19.050000 8.890000 Front 0.000000)
+    )
+    (component "153CLV-0605$rcl" 
+      (place "C3" 19.050000 5.080000 Front 180.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C4" 8.890000 3.810000 Back 0.000000)
+    )
+    (component "C0805$rcl" 
+      (place "C5" 29.210000 3.810000 Back 180.000000)
+    )
+    (component "SSOP28$ftdichip" 
+      (place "IC1" 19.050000 15.240000 Front 90.000000)
+    )
+    (component "TQFP32-08$avr-6" 
+      (place "IC2" 22.860000 13.970000 Back 90.000000)
+    )
+    (component "SM-B5$inductor-neosid" 
+      (place "L1" 12.700000 22.860000 Front 0.000000)
+    )
+    (component "LED3MM$led" 
+      (place "LED1" 20.320000 27.940000 Front 0.000000)
+    )
+    (component "HC49UP$crystal" 
+      (place "Q1" 19.050000 3.810000 Back 180.000000)
+    )
+    (component "R0805$resistor" 
+      (place "R1" 11.430000 16.510000 Front 0.000000)
+    )
+    (component "R0805$resistor" 
+      (place "R2" 11.430000 19.050000 Front 0.000000)
+    )
+    (component "R0805$resistor" 
+      (place "R3" 27.940000 7.620000 Back 0.000000)
+    )
+    (component "R0805$resistor" 
+      (place "R4" 27.940000 12.700000 Front 180.000000)
+    )
+    (component "R0805$resistor" 
+      (place "R5" 27.940000 10.160000 Front 180.000000)
+    )
+    (component "R0805$resistor" 
+      (place "R6" 36.830000 17.780000 Back 180.000000)
+    )
+    (component "R0805$resistor" 
+      (place "R7" 36.830000 15.240000 Back 180.000000)
+    )
+    (component "R0805$resistor" 
+      (place "R8" 36.830000 12.700000 Back 180.000000)
+    )
+    (component "R0805$resistor" 
+      (place "R9" 36.830000 10.160000 Back 180.000000)
+    )
+    (component "R0805$resistor" 
+      (place "R10" 36.830000 7.620000 Back 180.000000)
+    )
+    (component "R0805$resistor" 
+      (place "R11" 38.100000 3.810000 Back 270.000000)
+    )
+    (component "R0805$resistor" 
+      (place "R12" 34.290000 2.540000 Back 0.000000)
+    )
+    (component "R0805$resistor" 
+      (place "R13" 25.400000 27.940000 Back 180.000000)
+    )
+    (component "DA-02$switch-dil" 
+      (place "S1" 41.910000 26.670000 Front 90.000000)
+    )
+    (component "ML10L$con-harting-ml" 
+      (place "SV1" 41.910000 12.700000 Front 270.000000)
+    )
+    (component "32005-201$con-cypressindustries" 
+      (place "X2" 3.810000 16.510000 Front 0.000000)
+    )
+  )
+  (library
+    (image "TQFP32-08$avr-6"
+      (outline(circ "1#Top" 0.718400 -2.743200 2.743200))
+      (pin "Rectangle1" "1" -4.292600 2.800000)
+      (pin "Rectangle1" "2" -4.292600 2.000000)
+      (pin "Rectangle1" "3" -4.292600 1.200000)
+      (pin "Rectangle1" "4" -4.292600 0.400000)
+      (pin "Rectangle1" "5" -4.292600 -0.400000)
+      (pin "Rectangle1" "6" -4.292600 -1.200000)
+      (pin "Rectangle1" "7" -4.292600 -2.000000)
+      (pin "Rectangle1" "8" -4.292600 -2.800000)
+      (pin "Rectangle2" "9" -2.800000 -4.292600)
+      (pin "Rectangle2" "10" -2.000000 -4.292600)
+      (pin "Rectangle2" "11" -1.200000 -4.292600)
+      (pin "Rectangle2" "12" -0.400000 -4.292600)
+      (pin "Rectangle2" "13" 0.400000 -4.292600)
+      (pin "Rectangle2" "14" 1.200000 -4.292600)
+      (pin "Rectangle2" "15" 2.000000 -4.292600)
+      (pin "Rectangle2" "16" 2.800000 -4.292600)
+      (pin "Rectangle1" "17" 4.292600 -2.800000)
+      (pin "Rectangle1" "18" 4.292600 -2.000000)
+      (pin "Rectangle1" "19" 4.292600 -1.200000)
+      (pin "Rectangle1" "20" 4.292600 -0.400000)
+      (pin "Rectangle1" "21" 4.292600 0.400000)
+      (pin "Rectangle1" "22" 4.292600 1.200000)
+      (pin "Rectangle1" "23" 4.292600 2.000000)
+      (pin "Rectangle1" "24" 4.292600 2.800000)
+      (pin "Rectangle2" "25" 2.800000 4.292600)
+      (pin "Rectangle2" "26" 2.000000 4.292600)
+      (pin "Rectangle2" "27" 1.200000 4.292600)
+      (pin "Rectangle2" "28" 0.400000 4.292600)
+      (pin "Rectangle2" "29" -0.400000 4.292600)
+      (pin "Rectangle2" "30" -1.200000 4.292600)
+      (pin "Rectangle2" "31" -2.000000 4.292600)
+      (pin "Rectangle2" "32" -2.800000 4.292600)
+    )
+    (image "32005-201$con-cypressindustries"
+      (keepout (circ signal 1.103200 0.000000 2.200000))
+      (keepout (circ signal 1.103200 0.000000 -2.200000))
+      (pin "Rectangle3" "1" 3.000000 1.600000)
+      (pin "Rectangle3" "2" 3.000000 0.800000)
+      (pin "Rectangle3" "3" 3.000000 0.000000)
+      (pin "Rectangle3" "4" 3.000000 -0.800000)
+      (pin "Rectangle3" "5" 3.000000 -1.600000)
+      (pin "Rectangle4" "M1" -3.000000 -4.450000)
+      (pin "Rectangle4" "M2" -3.000000 4.450000)
+      (pin "Rectangle5" "M3" 2.900000 4.450000)
+      (pin "Rectangle5" "M4" 2.900000 -4.450000)
+    )
+    (image "ML10L$con-harting-ml"
+      (outline(rect "1#Top" -0.254000 4.445000 0.254000 10.287000))
+      (outline(rect "1#Top" -6.223000 9.652000 -3.937000 10.160000))
+      (outline(rect "1#Top" -5.969000 9.144000 -4.191000 9.652000))
+      (outline(rect "1#Top" -5.715000 8.636000 -4.445000 9.144000))
+      (outline(rect "1#Top" -5.461000 8.128000 -4.699000 8.636000))
+      (outline(rect "1#Top" -5.207000 7.874000 -4.953000 8.128000))
+      (outline(rect "1#Top" -5.334000 -0.381000 -4.826000 0.381000))
+      (outline(rect "1#Top" -2.794000 -0.381000 -2.286000 0.381000))
+      (outline(rect "1#Top" -0.254000 -0.381000 0.254000 0.381000))
+      (outline(rect "1#Top" 2.286000 -0.381000 2.794000 0.381000))
+      (outline(rect "1#Top" 4.826000 -0.381000 5.334000 0.381000))
+      (pin "Octagon1" "1" -5.080000 -1.270000)
+      (pin "Octagon1" "2" -5.080000 1.270000)
+      (pin "Octagon1" "3" -2.540000 -1.270000)
+      (pin "Octagon1" "4" -2.540000 1.270000)
+      (pin "Octagon1" "5" 0.000000 -1.270000)
+      (pin "Octagon1" "6" 0.000000 1.270000)
+      (pin "Octagon1" "7" 2.540000 -1.270000)
+      (pin "Octagon1" "8" 2.540000 1.270000)
+      (pin "Octagon1" "9" 5.080000 -1.270000)
+      (pin "Octagon1" "10" 5.080000 1.270000)
+    )
+    (image "HC49UP$crystal"
+      (via_keepout(rect signal -6.604000 -3.048000 6.604000 3.048000))
+      (pin "Rectangle6" "1" -4.826000 0.000000)
+      (pin "Rectangle6" "2" 4.826000 0.000000)
+    )
+    (image "SSOP28$ftdichip"
+      (outline(circ "1#Top" 0.884400 -4.200000 -1.625000))
+      (pin "Rectangle7" "1" -4.225000 -3.625000)
+      (pin "Rectangle7" "2" -3.575000 -3.625000)
+      (pin "Rectangle7" "3" -2.925000 -3.625000)
+      (pin "Rectangle7" "4" -2.275000 -3.625000)
+      (pin "Rectangle7" "5" -1.625000 -3.625000)
+      (pin "Rectangle7" "6" -0.975000 -3.625000)
+      (pin "Rectangle7" "7" -0.325000 -3.625000)
+      (pin "Rectangle7" "8" 0.325000 -3.625000)
+      (pin "Rectangle7" "9" 0.975000 -3.625000)
+      (pin "Rectangle7" "10" 1.625000 -3.625000)
+      (pin "Rectangle7" "11" 2.275000 -3.625000)
+      (pin "Rectangle7" "12" 2.925000 -3.625000)
+      (pin "Rectangle7" "13" 3.575000 -3.625000)
+      (pin "Rectangle7" "14" 4.225000 -3.625000)
+      (pin "Rectangle7" "15" 4.225000 3.625000)
+      (pin "Rectangle7" "16" 3.575000 3.625000)
+      (pin "Rectangle7" "17" 2.925000 3.625000)
+      (pin "Rectangle7" "18" 2.275000 3.625000)
+      (pin "Rectangle7" "19" 1.625000 3.625000)
+      (pin "Rectangle7" "20" 0.975000 3.625000)
+      (pin "Rectangle7" "21" 0.325000 3.625000)
+      (pin "Rectangle7" "22" -0.325000 3.625000)
+      (pin "Rectangle7" "23" -0.975000 3.625000)
+      (pin "Rectangle7" "24" -1.625000 3.625000)
+      (pin "Rectangle7" "25" -2.275000 3.625000)
+      (pin "Rectangle7" "26" -2.925000 3.625000)
+      (pin "Rectangle7" "27" -3.575000 3.625000)
+      (pin "Rectangle7" "28" -4.225000 3.625000)
+    )
+    (image "SM-B5$inductor-neosid"
+      (pin "Rectangle8" "1" -2.000000 0.000000)
+      (pin "Rectangle8" "2" 2.000000 0.000000)
+    )
+    (image "LED3MM$led"
+      (pin "Octagon2" "A" -1.270000 0.000000)
+      (pin "Octagon2" "K" 1.270000 0.000000)
+    )
+    (image "153CLV-0605$rcl"
+      (pin "Rectangle9" "+" 2.700000 0.000000)
+      (pin "Rectangle9" "-" -2.700000 0.000000)
+    )
+    (image "C0805$rcl"
+      (place_keepout(path "1#Top" 0 1.973000 0.983000 1.973000 -0.983000 -1.973000 -0.983000 -1.973000 0.983000 ))
+      (pin "Rectangle10" "1" -0.950000 0.000000)
+      (pin "Rectangle10" "2" 0.950000 0.000000)
+    )
+    (image "R0805$resistor"
+      (place_keepout(path "1#Top" 0 -1.973000 -0.983000 -1.973000 0.983000 1.973000 0.983000 1.973000 -0.983000 ))
+      (pin "Rectangle10" "1" -0.850000 0.000000)
+      (pin "Rectangle10" "2" 0.850000 0.000000)
+    )
+    (image "DA-02$switch-dil"
+      (outline(rect "1#Top" -2.032000 -8.255000 -0.508000 -7.112000))
+      (outline(rect "1#Top" 0.508000 -8.255000 2.032000 -7.112000))
+      (outline(rect "1#Top" -1.651000 -0.381000 -0.889000 0.381000))
+      (outline(rect "1#Top" 0.889000 -0.381000 1.651000 0.381000))
+      (pin "Octagon2" "1" -1.270000 -1.270000)
+      (pin "Octagon2" "2" 1.270000 -1.270000)
+      (pin "Octagon2" "3" 1.270000 1.270000)
+      (pin "Octagon2" "4" -1.270000 1.270000)
+    )
+    (padstack "ViaDefault$0.609600"
+      (shape (circle signal 1.016000 0 0))
+    )
+    (padstack "Round1$0.019047" 
+      (shape (circle "1#Top" 0.031750 0 0))
+      (shape (circle "16#Bottom" 0.031750 0 0))
+      (attach off)
+    )
+    (padstack "Rectangle1" 
+      (shape (rect "1#Top" -0.635000 -0.279400 0.635000 0.279400))
+      (attach off)
+    )
+    (padstack "Rectangle2" 
+      (shape (rect "1#Top" -0.279400 -0.635000 0.279400 0.635000))
+      (attach off)
+    )
+    (padstack "Rectangle3" 
+      (shape (rect "1#Top" -1.550000 -0.250000 1.550000 0.250000))
+      (attach off)
+    )
+    (padstack "Rectangle4" 
+      (shape (rect "1#Top" -1.250000 -1.000000 1.250000 1.000000))
+      (attach off)
+    )
+    (padstack "Rectangle5" 
+      (shape (rect "1#Top" -1.650000 -1.000000 1.650000 1.000000))
+      (attach off)
+    )
+    (padstack "Octagon1" 
+      (shape (polygon "1#Top" 0 0.711200 0.294589 0.294589 0.711200 -0.294589 0.711200 -0.711200 0.294589 -0.711200 -0.294589 -0.294589 -0.711200 0.294589 -0.711200 0.711200 -0.294589 ))
+      (shape (polygon "16#Bottom" 0 0.711200 0.294589 0.294589 0.711200 -0.294589 0.711200 -0.711200 0.294589 -0.711200 -0.294589 -0.294589 -0.711200 0.294589 -0.711200 0.711200 -0.294589 ))
+      (attach off)
+    )
+    (padstack "Rectangle6" 
+      (shape (rect "1#Top" -2.667000 -0.965200 2.667000 0.965200))
+      (attach off)
+    )
+    (padstack "Rectangle7" 
+      (shape (rect "1#Top" -0.200000 -0.750000 0.200000 0.750000))
+      (attach off)
+    )
+    (padstack "Rectangle8" 
+      (shape (rect "1#Top" -1.000000 -0.850000 1.000000 0.850000))
+      (attach off)
+    )
+    (padstack "Octagon2" 
+      (shape (polygon "1#Top" 0 0.660400 0.273547 0.273547 0.660400 -0.273547 0.660400 -0.660400 0.273547 -0.660400 -0.273547 -0.273547 -0.660400 0.273547 -0.660400 0.660400 -0.273547 ))
+      (shape (polygon "16#Bottom" 0 0.660400 0.273547 0.273547 0.660400 -0.273547 0.660400 -0.660400 0.273547 -0.660400 -0.273547 -0.273547 -0.660400 0.273547 -0.660400 0.660400 -0.273547 ))
+      (attach off)
+    )
+    (padstack "Rectangle9" 
+      (shape (rect "1#Top" -1.750000 -0.800000 1.750000 0.800000))
+      (attach off)
+    )
+    (padstack "Rectangle10" 
+      (shape (rect "1#Top" -0.650000 -0.750000 0.650000 0.750000))
+      (attach off)
+    )
+  )
+  (network
+    (net "+5V"
+      (pins  "C1"-"1" "C3"-"+" "C2"-"1" "IC2"-"4" "IC2"-"6" "IC2"-"18" "R3"-"2" "S1"-"1")
+    )
+    (net "GND"
+      (pins  "IC1"-"25" "IC1"-"7" "IC1"-"18" "IC1"-"21" "IC1"-"26" "C1"-"2" "C3"-"-" "C2"-"2" "X2"-"M1" "X2"-"M2" "X2"-"M3" "X2"-"M4" "X2"-"5" "IC2"-"5" "IC2"-"3" "IC2"-"21" "C4"-"2" "C5"-"2" "SV1"-"4" "SV1"-"6" "SV1"-"8" "SV1"-"10" "R12"-"2" "R13"-"2")
+    )
+    (net "N$1"
+      (pins  "R1"-"1" "X2"-"3")
+    )
+    (net "N$2"
+      (pins  "R1"-"2" "IC1"-"15")
+    )
+    (net "N$3"
+      (pins  "R2"-"1" "X2"-"2")
+    )
+    (net "N$4"
+      (pins  "R2"-"2" "IC1"-"16")
+    )
+    (net "N$5"
+      (pins  "SV1"-"1" "R6"-"2")
+    )
+    (net "N$6"
+      (pins  "IC2"-"8" "C4"-"1" "Q1"-"1")
+    )
+    (net "N$7"
+      (pins  "C5"-"1" "IC2"-"7" "Q1"-"2")
+    )
+    (net "N$8"
+      (pins  "IC2"-"29" "R4"-"1" "R3"-"1")
+    )
+    (net "N$9"
+      (pins  "R4"-"2" "IC1"-"1" "R5"-"2")
+    )
+    (net "N$10"
+      (pins  "IC2"-"30" "R5"-"1")
+    )
+    (net "N$11"
+      (pins  "SV1"-"3" "R7"-"2")
+    )
+    (net "N$12"
+      (pins  "IC2"-"31" "IC1"-"5")
+    )
+    (net "N$13"
+      (pins  "IC1"-"3" "IC1"-"9" "IC2"-"17")
+    )
+    (net "N$14"
+      (pins  "IC2"-"16" "IC1"-"11")
+    )
+    (net "N$15"
+      (pins  "IC2"-"15" "IC1"-"2")
+    )
+    (net "N$16"
+      (pins  "SV1"-"5" "R8"-"2" "R11"-"1")
+    )
+    (net "N$17"
+      (pins  "SV1"-"7" "R9"-"2")
+    )
+    (net "N$18"
+      (pins  "SV1"-"9" "R10"-"2")
+    )
+    (net "N$19"
+      (pins  "R11"-"2" "R12"-"1" "IC2"-"27")
+    )
+    (net "N$20"
+      (pins  "IC2"-"28" "R10"-"1")
+    )
+    (net "N$21"
+      (pins  "S1"-"3" "R7"-"1")
+    )
+    (net "N$22"
+      (pins  "L1"-"1" "X2"-"1")
+    )
+    (net "N$23"
+      (pins  "IC2"-"24" "R9"-"1")
+    )
+    (net "N$24"
+      (pins  "IC2"-"26" "R8"-"1")
+    )
+    (net "N$25"
+      (pins  "R6"-"1" "IC2"-"25")
+    )
+    (net "N$26"
+      (pins  "SV1"-"2" "S1"-"4")
+    )
+    (net "N$27"
+      (pins  "S1"-"2" "IC2"-"23")
+    )
+    (net "N$28"
+      (pins  "LED1"-"A" "IC2"-"14")
+    )
+    (net "N$29"
+      (pins  "LED1"-"K" "R13"-"1")
+    )
+    (net "VCC"
+      (pins  "IC1"-"20" "IC1"-"4" "IC1"-"19" "L1"-"2")
+    )
+  )
+  (wiring
+    (wire
+      (poly "16#Bottom"  0.406400 0.000000 0.000000 46.990000 0.000000 46.990000 31.750000 0.000000 31.750000) 
+      (net "GND")
+    )
+    (wire
+      (poly "1#Top"  0.406400 0.000000 0.000000 0.000000 31.750000 46.990000 31.750000 46.990000 30.480000 46.990000 0.000000) 
+      (net "GND")
+    )
+  )
+)
