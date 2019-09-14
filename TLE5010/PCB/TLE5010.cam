@@ -10,7 +10,7 @@
     "output_type": "directory",
     "outputs": [
         {
-            "filename_prefix": "CAMOutputs/GerberFiles",
+            "filename_prefix": "CAMOutputs/",
             "format_specifier": {
                 "decimal": 4,
                 "integer": 3
@@ -33,7 +33,7 @@
                         "layer_details": "mixed",
                         "layer_type": "top"
                     },
-                    "filename_format": "%PREFIX/copper_top.gbr",
+                    "filename_format": "%PREFIXcopper_top.gbr",
                     "layers": [
                         1,
                         17,
@@ -52,61 +52,40 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "board_outline": true,
+                    "board_outline": false,
                     "config": {
                         "file_function": "Profile",
                         "plating": "non-plated"
                     },
-                    "filename_format": "%PREFIX/profile.gbr",
+                    "filename_format": "%PREFIXBoardShape.gbr",
                     "layers": [
-                    ],
-                    "milling": true,
-                    "polarity": "positive",
-                    "type": "gerber_layer"
-                },
-                {
-                    "advanced_options": {
-                        "mirror": false,
-                        "offset_x": 0,
-                        "offset_y": 0,
-                        "rotate": false,
-                        "upside_down": false
-                    },
-                    "board_outline": false,
-                    "config": {
-                        "file_function": "Soldermask",
-                        "index": 1,
-                        "layer_type": "top"
-                    },
-                    "filename_format": "%PREFIX/soldermask_top.gbr",
-                    "layers": [
-                        29
-                    ],
-                    "name": "Soldermask Top",
-                    "polarity": "positive",
-                    "type": "gerber_layer"
-                },
-                {
-                    "advanced_options": {
-                        "mirror": false,
-                        "offset_x": 0,
-                        "offset_y": 0,
-                        "rotate": false,
-                        "upside_down": false
-                    },
-                    "board_outline": false,
-                    "config": {
-                        "file_function": "Legend",
-                        "index": 1,
-                        "layer_type": "top"
-                    },
-                    "filename_format": "%PREFIX/silkscreen_top.gbr",
-                    "layers": [
-                        21,
-                        25
+                        20
                     ],
                     "milling": false,
-                    "name": "Silkscreen Top",
+                    "name": "BoardShape",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Other",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIXCutouts.gbr",
+                    "layers": [
+                        46,
+                        45
+                    ],
+                    "milling": false,
+                    "name": "Cutouts",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 }
@@ -114,7 +93,7 @@
             "version": "RS274X"
         },
         {
-            "filename_prefix": "CAMOutputs/DrillFiles",
+            "filename_prefix": "CAMOutputs/",
             "format_specifier": {
                 "decimal": 3,
                 "integer": 3
@@ -129,7 +108,7 @@
                         "rotate": false,
                         "upside_down": false
                     },
-                    "filename_format": "%DRILLPREFIX/drill_%FROM_%TO.xln",
+                    "filename_format": "%PREFIXdrill.xln",
                     "name": "Auto Drill",
                     "type": "autodrills"
                 }
@@ -162,7 +141,7 @@
             ]
         }
     ],
-    "timestamp": "2019-09-13T12:24:15",
+    "timestamp": "2019-09-14T17:42:26",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
